@@ -1,6 +1,8 @@
 export default function loadPage() {
   console.log("working");
+
   const content = document.getElementById("content");
+  content.innerHTML = "";
 
   const container = document.createElement("div");
   container.classList.add("container");
